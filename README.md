@@ -9,7 +9,9 @@ typecho 的部分api ，使用nodejs编写
 # install
 >npm i typecho-api
 
-##examples
+
+#examples
+
 ```$js
 
 
