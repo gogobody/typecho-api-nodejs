@@ -1,0 +1,33 @@
+{
+  "name": "typecho-api",
+  "version": "0.0.2",
+  "description": "Typecho API for node.js",
+  "main": "./lib/metaweblog-api.js",
+  "typings": "./lib/metaweblog-api.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@types/es6-promise": "0.0.28",
+    "@types/node": "^6.0.31",
+    "xmlrpc": "^1.3.2"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogobody/typecho-api-nodejs"
+  },
+  "keywords": [
+    "Typecho",
+    "MetaWeblog",
+    "API"
+  ],
+  "author": "gogobody https://github.com/gogobody/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gogobody/typecho-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/gogobody/typecho-api-nodejs/blob/master/README.md"
+}
