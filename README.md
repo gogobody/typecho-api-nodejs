@@ -23,7 +23,8 @@ Typecho blog API 是一个nodejs编写的typecho 博客api库
 # install
 >npm i typecho-api
 
-
+一般uri为：
+- "博客域名/action/xmlrpc"
 
 # examples
 
@@ -31,7 +32,7 @@ Typecho blog API 是一个nodejs编写的typecho 博客api库
 
 
 const Typechoblog = require('typecho-api');
-const metaWeblog = new Typechoblog('', '', '');
+const metaWeblog = new Typechoblog('uri', 'name', 'password');
 var blogid, postid;
 var post = {
     title:"new post", //title
