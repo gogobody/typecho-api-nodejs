@@ -1,6 +1,6 @@
 {
   "name": "typecho-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typecho API for node.js",
   "main": "./lib/metaweblog-api.js",
   "typings": "./lib/metaweblog-api.d.ts",

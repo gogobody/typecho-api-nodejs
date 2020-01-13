@@ -1,16 +1,31 @@
-# typecho-api-nodejs
-typecho 的部分api ，使用nodejs编写
+Typecho blog API 是一个nodejs编写的typecho 博客api库
+
+目前支持的api有:
+1. getUsersBlogs 获取博客信息
+2. getRecentPosts 获取最近的num条博客
+3. getCategories 获取分类
+4. getPost 获取博文详情
+5. editPost 编辑、更新博文
+6. newPost 发布新的博文
+7. deletePost 删除博文
+8. newMediaObject 上传媒体
 
 已知问题：
+
 - typecho 如果使用了AutoTags插件，则post的mt_keywords为必填字段
 - 果使用了handsome插件，则必须先去插件->搜索设置里构建索引
 - 如果需要上传附件，需要保证usr/目录下有uploads文件夹且具有可写入权限
+
+地址：
+[github][1]
+[npm][2]
 
 # install
 >npm i typecho-api
 
 
-#examples
+
+# examples
 
 ```$js
 
@@ -119,3 +134,5 @@ metaWeblog.getUsersBlogs(1)
 });
 
 ```
+  [1]: https://github.com/gogobody/typecho-api-nodejs/blob/master/README.md
+  [2]: https://www.npmjs.com/package/typecho-api
